@@ -44,6 +44,7 @@ function generatePassword(){
 
   // ensure at least one character type was selected
   if (chars ==""){
+    alert ("Please select at least one character type")
     return generatePassword();
   }
   
