@@ -32,7 +32,7 @@ The final result after selecting the desired characters.
 
 The link to the deployed version of this application.
 
-[Live Demo](https://evachu000.github.io/Create-ur-own-password/index.html)
+[Live Demo](https://evachu000.github.io/Create-ur-own-password/)
 
 ## Features
 
