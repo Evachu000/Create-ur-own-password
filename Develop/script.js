@@ -20,7 +20,7 @@ function generatePassword(){
   var includeUppercase = confirm ("Uppercase characters included in the password?"); // Ask the user if uppercase is needed
   var includeLowercase = confirm ("Lowercase characters included in the password?"); // Ask the user if lppercase is needed
   var includeNumber = confirm ("Number characters included in the password?"); // Ask the user if numbers is needed
-  var includeSymbols = confirm ("Symbol characters included in the password?"); // Ask the user if symbol is needed
+  var includeSymbols = confirm ("Special characters included in the password?"); // Ask the user if symbol is needed
 
 // to include the character was seleted in the prompts
   let password ="";
