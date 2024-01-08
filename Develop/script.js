@@ -41,6 +41,11 @@ function generatePassword(){
   if (includeSymbols){
     chars += symbolsChars;
   } else chars +="";
+
+  // ensure at least one character type was selected
+  if (chars ==""){
+    return generatePassword();
+  }
   
   // randomly pick characters from the seleted criteria and to fit the password length
   for (var i =0; i < passwordLength; i++){
